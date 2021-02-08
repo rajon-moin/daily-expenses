@@ -27,8 +27,7 @@ class ExpenSes extends StatelessWidget {
                         child: Row(children: [
                               CircleAvatar(
                                 radius: 5,
-                                backgroundColor: pieColors[expenses.indexOf(value)],
-                                
+                                backgroundColor: pieColors[expenses.indexOf(value)]
                               ),
                               SizedBox(width: 20,),
                               Text(value['name'],style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15))
